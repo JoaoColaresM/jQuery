@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: darkslategray;
+}
+
+header {
+    margin-top: 100px;
+    margin-bottom: 18px;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    text-align: center;
+}
+
+form input {
+    background-color: lightgray;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    padding: 3px;
+    outline: none;
+}
+
+form input::placeholder {
+    color: darkolivegreen;
+}
+
+form button {
+    background-color: darkgreen;
+    color: whitesmoke;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    padding: 3px 6px;
+    cursor: pointer;
+}
+
+.itens-da-lista{
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    flex-direction: column;
+    align-items:start;
+    margin-top: 24px;
+    color: whitesmoke;
+}
+
+ul li {
+    margin-bottom: 12px;
+}
+
+ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
