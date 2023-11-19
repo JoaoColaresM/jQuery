@@ -62,3 +62,10 @@ ul li a {
     color: whitesmoke;
     text-decoration: none;
 }
+
+.riscar {
+    color: black;
+    text-decoration: line-through;
+    text-decoration-thickness: 0.15rem;
+    text-decoration-color: black;
+    }

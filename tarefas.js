@@ -14,14 +14,7 @@ $(document).ready(function(){
         q ++
     })
     
-    let w = true
-    $('ul').click(function(){
-        if(w == true){
-            $('a').css({"text-decoration":"line-through","color":"rgb(0,0,0)"})
-            w = false
-        } else {
-            $('a').css({"text-decoration":"none", "color":"rgb(245,245,245)"})
-            w = true
-        }
+    $('ul').on("click", "a",function(){
+        $(this).toggleClass("riscar")       
     })
 })
